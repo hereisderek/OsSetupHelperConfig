@@ -32,12 +32,6 @@ selections:
       extensions:
         - ms-python.python
         - redhat.ansible
-      post_install:
-        - name: create-vscode-marker
-          type: command
-          command: "touch ~/.vscode_bootstrap_done"
-          blocking: true
-          creates: "~/.vscode_bootstrap_done"
       os_overrides:
         mac:
           custom_paths:
