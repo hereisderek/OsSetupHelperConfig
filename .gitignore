@@ -1,5 +1,4 @@
 config.override.yaml
-config/config.override.yaml
 venv/
 *.pyc
 __pycache__/
