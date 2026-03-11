@@ -120,6 +120,8 @@ selections:
       enabled: false
 
   commandline_tools:
+    nodejs:
+      enabled: false
     zsh_ohmyzsh:
       enabled: false
       custom_paths:
