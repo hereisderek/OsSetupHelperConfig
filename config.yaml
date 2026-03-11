@@ -155,6 +155,7 @@ selections:
       app_files: {}
     macos_tweaks:
       enabled: false
+      hostname: ""
       setup_dock: false
       clean_docker_icon: true
       allow_mouse_right_click: true
