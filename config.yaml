@@ -130,7 +130,11 @@ selections:
       enabled: false
     gemini:
       enabled: false
-    cloudcode:
+    claudcode:
+      enabled: false
+    openjdk-latest:
+      enabled: false
+    openjdk-17:
       enabled: false
     mole:
       enabled: false
