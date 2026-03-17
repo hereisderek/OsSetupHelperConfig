@@ -1,0 +1,27 @@
+# Common handy aliases (works in bash and zsh)
+
+# Listing
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Navigation
+alias ..='cd ..'
+alias ...='cd ../../'
+
+# Git shortcuts
+alias gs='git status'
+alias gst='git status'
+alias gco='git checkout'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+alias gl='git log --oneline --graph --decorate'
+
+# Quick view of PATH
+alias pathshow='printf "%s\n" "$PATH" | tr ":" "\n"'
+
+
+alias zshconfig="nano ~/.zshrc"
+alias reload="source ~/.zshrc && echo 'ZSH config reloaded!'"
+alias adb-restart="adb kill-server && adb start-server"
