@@ -19,6 +19,9 @@ selections:
   #   role_name: true/false          (Short form)
   #   role_name: { enabled: true }   (Full form)
   apps:
+    chrome: 
+      enabled: true
+      add_to_dock: true
     sourcetree: true
     sublime: true
     steam: true
@@ -27,9 +30,43 @@ selections:
     postman: false
     slack: true
     obs_studio: true
-    freedownloadmanager: true
+    freedownloadmanager: false
     google_drive: true
-    pixpin: true
+    pixpin: false
+    ai:
+      enabled: true
+      opencode:
+        enabled: true
+        add_to_dock: true
+      ollama: true
+      omlx: true
+      skills:
+        enabled: true
+        symlink: true
+        symlink_src: "~/.config/agent/skills"
+        symlink_dst:
+          - ~/.claude/skills
+          # If omitted/empty, auto-detects from installed agents:
+          # - ~/.gemini/skills
+          # - ~/.cursor/skills
+          # - ~/.codex/skills
+        agent_skills: true
+        # Skills can be listed as a dict under items: (syntax 1) or as a list (syntax 2)
+        items:
+          ponytail: true
+          headroom: true
+          taste_skill: true
+          archify: true
+          codex_with_chatgpt: true
+          reverse_skill: true
+      others:
+        enabled: true
+        items:
+          aoci_code: true
+          symphony: true
+          codex_chatgpt_web: true
+          omniroute: true
+          graphify: true
     
     # macOS Specific Apps
     iterm: true
@@ -43,10 +80,16 @@ selections:
       enabled: true
       add_to_dock: true
     utm: true
-
+    macshot: true
+    crisp: true
+    vorssaint: true
+    rectangle: true
+    applite: true
+    otty: true
     
   # Command-line Tools
   cli:
+    gh: true
     nodejs: true
     zsh_ohmyzsh:
       enabled: true

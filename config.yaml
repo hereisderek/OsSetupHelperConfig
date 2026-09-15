@@ -61,6 +61,40 @@ selections:
     google_drive: 
       enabled: true
     pixpin: false
+    ai:
+      enabled: true
+      opencode:
+        enabled: true
+        add_to_dock: true
+      ollama: true
+      omlx: true
+      skills:
+        enabled: true
+        symlink: true
+        symlink_src: "~/.config/agent/skills"
+        symlink_dst:
+          - ~/.claude/skills
+          # If omitted/empty, auto-detects from installed agents:
+          # - ~/.gemini/skills
+          # - ~/.cursor/skills
+          # - ~/.codex/skills
+        agent_skills: true
+        # Skills can be listed as a dict under items: (syntax 1) or as a list (syntax 2)
+        items:
+          ponytail: true
+          headroom: true
+          taste_skill: true
+          archify: true
+          codex_with_chatgpt: true
+          reverse_skill: true
+      others:
+        enabled: true
+        items:
+          aoci_code: true
+          symphony: true
+          codex_chatgpt_web: true
+          omniroute: true
+          graphify: true
     
     # macOS Specific Apps
     iterm: 
@@ -82,6 +116,12 @@ selections:
       enabled: true
       add_to_dock: true
     utm: true
+    macshot: true
+    crisp: true
+    vorssaint: true
+    rectangle: true
+    applite: true
+    otty: true
 
     # Linux Specific Apps
     gnome_tweaks: true
@@ -95,6 +135,7 @@ selections:
   # Command-line Tools
   cli:
     nodejs: false
+    gh: true
     zsh_ohmyzsh:
       enabled: true
       # Where to install Oh My Zsh
