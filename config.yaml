@@ -142,6 +142,10 @@ selections:
       # Freeform, Music, TV, Podcasts, News, App Store). Keeps Finder,
       # Launchpad/Apps, System Settings, and Trash.
       clean_dock_icons: true
+      # Set the main display's scaled resolution to "More Space" (the
+      # largest HiDPI mode) via displayplacer. Off by default — a real
+      # resolution change, not something to apply silently.
+      display_more_space: false
       # Enable right-click on Apple mouse/trackpad
       allow_mouse_right_click: true
       # Swap Cmd and Opt keys on external (non-Apple) keyboards
