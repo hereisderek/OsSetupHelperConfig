@@ -21,7 +21,7 @@ selections:
   apps:
     sourcetree: true
     sublime: true
-    steam: false
+    steam: true
     discord: true
     notion: true
     postman: false
@@ -55,7 +55,7 @@ selections:
         install_dir: "~/.config/ohmyzsh"
     opencode: true
     gemini: true
-    claudcode: false
+    claudcode: true
     openjdk-latest: true
     openjdk-17: true
     
@@ -86,25 +86,26 @@ selections:
       enabled: true
       # # Optional: custom hostname for the machine
       # hostname: "dereks-macbookpro"
+
       # # Remove known Apple stock apps from the Dock (Safari, Mail, Messages,
       # # Maps, Photos, FaceTime, Calendar, Contacts, Reminders, Notes,
       # # Freeform, Music, TV, Podcasts, News, App Store). Keeps Finder,
       # # Launchpad/Apps, System Settings, and Trash.
-      # clean_dock_icons: true
-      # # Set the main display's scaled resolution to "More Space" via displayplacer
-      # display_more_space: true
-      # # Enable right-click on Apple mouse/trackpad
-      # allow_mouse_right_click: true
-      # # Swap Cmd and Opt keys on external (non-Apple) keyboards
-      # swap_external_keyboard_cmd_opt: false
+      clean_dock_icons: true
+      # Set the main display's scaled resolution to "More Space" via displayplacer
+      display_more_space: true
+      # Enable right-click on Apple mouse/trackpad
+      allow_mouse_right_click: true
+      # Swap Cmd and Opt keys on external (non-Apple) keyboards
+      swap_external_keyboard_cmd_opt: true
       # # Enable tap-to-click on trackpad
-      # allow_tap_to_click: true
+      allow_tap_to_click: true
       # Show hidden files in Finder
       show_hidden_files: true
       # Show all file extensions in Finder
       show_all_filename_extensions: true
       # Disable the "are you sure" warning when renaming a file's extension
-      warn_on_extension_change: false
+      warn_on_extension_change: true
       # Enable three-finger drag
       allow_three_finger_drag: true
       # Default Finder view to 'List'
