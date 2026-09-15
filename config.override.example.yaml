@@ -46,7 +46,7 @@ selections:
 
     
   # Command-line Tools
-  commandline_tools:
+  cli:
     nodejs: true
     zsh_ohmyzsh:
       enabled: true
@@ -100,6 +100,8 @@ selections:
       show_hidden_files: true
       # Show all file extensions in Finder
       show_all_filename_extensions: true
+      # Disable the "are you sure" warning when renaming a file's extension
+      warn_on_extension_change: false
       # Enable three-finger drag
       allow_three_finger_drag: true
       # Default Finder view to 'List'

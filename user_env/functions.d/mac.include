@@ -1,0 +1,8 @@
+sign_app() {
+    unset_xattr "$@"
+    codesign --force --deep --sign - "$@"
+}
+
+unset_xattr() {
+    xattr -c "$@"
+}

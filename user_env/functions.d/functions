@@ -41,9 +41,5 @@ extract() {
     esac
 }
 
-# Reload this env quickly
-reload_env() {
-    # shellcheck disable=SC1090
-    . "${OSSETUP_USER_ENV_LOADED:+${PWD}/config/user_env/env.sh}" 2>/dev/null || true
-}
-
+# reload_env / reload_user_env are defined in env.sh itself (the only place
+# that reliably knows its own path) — see env.sh for the working version.

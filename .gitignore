@@ -1,4 +1,6 @@
 config.override.yaml
+# Contains real secrets (keystore/keys passwords) — never commit this.
+user_env/env.d/hud.env
 venv/
 *.pyc
 __pycache__/
