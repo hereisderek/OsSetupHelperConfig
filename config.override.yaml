@@ -135,13 +135,17 @@ selections:
       # # Freeform, Music, TV, Podcasts, News, App Store). Keeps Finder,
       # # Launchpad/Apps, System Settings, and Trash.
       clean_dock_icons: true
+      # Dock position on screen ('left', 'bottom', 'right', or omit to skip)
+      dock_location: "left"
+      # Dock icon size in pixels
+      dock_size: 48
       # Set the main display's scaled resolution to "More Space" via displayplacer
       display_more_space: true
       # Enable right-click on Apple mouse/trackpad
       allow_mouse_right_click: true
       # Swap Cmd and Opt keys on external (non-Apple) keyboards
       swap_external_keyboard_cmd_opt: true
-      # # Enable tap-to-click on trackpad
+      # Enable tap-to-click on trackpad
       allow_tap_to_click: true
       # Show hidden files in Finder
       show_hidden_files: true
@@ -153,6 +157,8 @@ selections:
       allow_three_finger_drag: true
       # Default Finder view to 'List'
       folder_list_view: true
+      # Default Finder new window location to Home folder
+      finder_default_location_home: true
       # Finder search defaults to current folder
       search_current_folder: true
       # Show icons on desktop
