@@ -91,7 +91,6 @@ selections:
     wsl2: true
     windows_terminal: true
     winget: true
-    powershell: true
 
   # Command-line Tools
   cli:
@@ -110,6 +109,10 @@ selections:
     # macOS Specific CLI
     mole: false
     mist_cli: false
+
+    # Windows Specific CLI (moved from apps: — its mac package is a
+    # Homebrew formula, not a cask, so it lives under cli/ not apps/)
+    powershell: true
 
   # System Settings & Optimizations
   settings:
@@ -134,8 +137,11 @@ selections:
       enabled: false
       # Optional: custom hostname for the machine
       hostname: ""
-      # Cleanup default macOS dock icons
-      clean_docker_icon: true
+      # Remove known Apple stock apps from the Dock (Safari, Mail, Messages,
+      # Maps, Photos, FaceTime, Calendar, Contacts, Reminders, Notes,
+      # Freeform, Music, TV, Podcasts, News, App Store). Keeps Finder,
+      # Launchpad/Apps, System Settings, and Trash.
+      clean_dock_icons: true
       # Enable right-click on Apple mouse/trackpad
       allow_mouse_right_click: true
       # Swap Cmd and Opt keys on external (non-Apple) keyboards

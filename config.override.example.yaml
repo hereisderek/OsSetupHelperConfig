@@ -86,10 +86,11 @@ selections:
       enabled: true
       # # Optional: custom hostname for the machine
       # hostname: "dereks-macbookpro"
-      # # Cleanup default macOS dock icons
-      # setup_dock: true
-      # # Hide the Docker Desktop icon from the Dock
-      # clean_docker_icon: true
+      # # Remove known Apple stock apps from the Dock (Safari, Mail, Messages,
+      # # Maps, Photos, FaceTime, Calendar, Contacts, Reminders, Notes,
+      # # Freeform, Music, TV, Podcasts, News, App Store). Keeps Finder,
+      # # Launchpad/Apps, System Settings, and Trash.
+      # clean_dock_icons: true
       # # Enable right-click on Apple mouse/trackpad
       # allow_mouse_right_click: true
       # # Swap Cmd and Opt keys on external (non-Apple) keyboards
