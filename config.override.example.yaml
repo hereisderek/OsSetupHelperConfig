@@ -102,6 +102,7 @@ selections:
     # macOS Specific CLI
     mole: true
     mist_cli: true
+    # asimov: true
 
   # System Settings & Optimizations
   settings:

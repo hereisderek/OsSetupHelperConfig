@@ -150,6 +150,7 @@ selections:
     # macOS Specific CLI
     mole: false
     mist_cli: false
+    # asimov: false
 
     # Windows Specific CLI (moved from apps: — its mac package is a
     # Homebrew formula, not a cask, so it lives under cli/ not apps/)
