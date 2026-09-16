@@ -122,6 +122,10 @@ selections:
     rectangle: true
     applite: true
     otty: true
+    # GitHub/GitLab release app example (can specify repo_url or use built-in role defaults):
+    # battgui:
+    #   enabled: false
+    #   repo_url: "https://github.com/clzoc/BattGUI"
 
     # Linux Specific Apps
     gnome_tweaks: true
@@ -158,6 +162,18 @@ selections:
 
   # System Settings & Optimizations
   settings:
+    # Generic bulk package installer (Homebrew, Casks, App Store, and GitHub/GitLab Releases)
+    # setup_packages:
+    #   enabled: false
+    #   mac:
+    #     brew: []
+    #     cask: []
+    #     mas: []
+    #     releases:
+    #       - "https://github.com/clzoc/BattGUI"
+    #       - url: "https://github.com/clzoc/BattGUI"
+    #         version: "v0.1.2" # optional
+    #         install_dir: "/Applications" # optional
     setup_ssh_git:
       enabled: false
       # Git global configuration

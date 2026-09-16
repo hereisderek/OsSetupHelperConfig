@@ -83,6 +83,9 @@ selections:
     rectangle: true
     applite: true
     otty: true
+    # battgui:
+    #   enabled: true
+    #   # repo_url: "https://github.com/clzoc/BattGUI"
     
   # Command-line Tools
   cli:
@@ -106,6 +109,11 @@ selections:
 
   # System Settings & Optimizations
   settings:
+    # setup_packages:
+    #   enabled: true
+    #   mac:
+    #     releases:
+    #       - "https://github.com/clzoc/BattGUI"
     setup_ssh_git:
       enabled: true
       # Git global configuration
