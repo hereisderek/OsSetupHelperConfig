@@ -161,6 +161,14 @@ selections:
       finder_default_location_home: true
       # Finder search defaults to current folder
       search_current_folder: true
+      # Time Machine backup frequency ('hourly', 'daily', 'weekly', 'manual', or seconds interval)
+      time_machine_frequency: "daily"
+      # Time Machine backup fixed-path exclusions
+      time_machine_exclusions:
+        - "/Volumes/private/Library/ai"
+        - "/Applications/Xcode.app"
+        - "/Volumes/private/data/os"
+        - "~/Library/Containers/com.utmapp.UTM/Data/Documents"
       # Show icons on desktop
       show_desktop_hard_drives: true
       show_desktop_external_drives: true
